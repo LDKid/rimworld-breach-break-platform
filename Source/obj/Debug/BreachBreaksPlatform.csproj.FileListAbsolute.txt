@@ -1,0 +1,9 @@
+D:\Game Files\Steam\steamapps\common\RimWorld\Mods\BreachBreaksPlatform\Assemblies\BreachBreaksPlatform.dll
+D:\Game Files\Steam\steamapps\common\RimWorld\Mods\BreachBreaksPlatform\Source\BreachBreaksPlatform\obj\Debug\BreachBreaksPlatform.csproj.AssemblyReference.cache
+D:\Game Files\Steam\steamapps\common\RimWorld\Mods\BreachBreaksPlatform\Source\BreachBreaksPlatform\obj\Debug\BreachBreaksPlatform.csproj.CoreCompileInputs.cache
+D:\Game Files\Steam\steamapps\common\RimWorld\Mods\BreachBreaksPlatform\Source\BreachBreaksPlatform\obj\Debug\BreachBreaksPlatform.dll
+D:\Dev Files\Mods\Rimworld\Assemblies\BreachBreaksPlatform.dll
+D:\Dev Files\Mods\Rimworld\BreachBreakPlatform\Source\obj\Debug\BreachBreaksPlatform.csproj.AssemblyReference.cache
+D:\Dev Files\Mods\Rimworld\BreachBreakPlatform\Source\obj\Debug\BreachBreaksPlatform.csproj.CoreCompileInputs.cache
+D:\Dev Files\Mods\Rimworld\BreachBreakPlatform\Source\obj\Debug\BreachBreaksPlatform.dll
+D:\Dev Files\Mods\Rimworld\BreachBreakPlatform\Assemblies\BreachBreaksPlatform.dll

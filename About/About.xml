@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModMetaData>
+    <packageId>LDKid.BreachBreaksPlatform</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
+    <name>Breach Breaks Platform</name>
+    <author>LDKid</author>
+    <description>This mod makes it so captured anomalies will damage the platform they're on when attempting to escape, instead of just escaping.</description>
+    <supportedVersions> <!-- the version(s) your mod supports -->
+        <li>1.5</li>
+    </supportedVersions>
+    <modVersion>1.0</modVersion>
+	<modDependencies>
+	  <li>
+		<packageId>ludeon.rimworld.anomaly</packageId>
+		<displayName>DLC Anomaly</displayName>
+	  </li>
+	  <li>
+		<packageId>brrainz.harmony</packageId>
+		<displayName>Harmony</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+	  </li>
+	</modDependencies>
+	<forceLoadAfter>
+		<li>ludeon.rimworld.anomaly</li>
+		<li>brrainz.harmony</li>
+	</forceLoadAfter>
+	<loadAfter>
+		<li>SYSMY.LCEM</li>
+	</loadAfter>
+  </ModMetaData>

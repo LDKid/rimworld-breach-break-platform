@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreachBreaksPlatform", "BreachBreaksPlatform.csproj", "{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {834D2AB6-BBE1-4BD6-A8FC-27FC9C7427D3}
+	EndGlobalSection
+EndGlobal

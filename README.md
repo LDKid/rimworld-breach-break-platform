@@ -11,7 +11,7 @@ When it attempts to escape a notification is also sent.
 - You can change the platform damage multiplier for escape attempts.
 
 ### Mod Compatibility
-It is fully compatible with [SYSMY's Lobotomy Corporation escape music](https://steamcommunity.com/sharedfiles/filedetails/?id=3221377926): Escape music will only trigger when anomalies succesfully escape.
+It is fully compatible with [SYSMY's Lobotomy Corporation escape music](https://steamcommunity.com/sharedfiles/filedetails/?id=3221377926): Escape music will only trigger when anomalies succesfully escape however, while using the mod, music will always stop playing when an escape attempt is made. Better compatibility may come in the future.
 
 [Github link here](https://github.com/LDKid/rimworld-breach-break-platform)
 

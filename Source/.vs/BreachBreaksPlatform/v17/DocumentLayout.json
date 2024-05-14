@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}|BreachBreaksPlatform.csproj|D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\patches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}|BreachBreaksPlatform.csproj|solutionrelative:patches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}|BreachBreaksPlatform.csproj|d:\\dev files\\mods\\rimworld\\breachbreakplatform\\source\\ldksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}|BreachBreaksPlatform.csproj|solutionrelative:ldksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BreachBreaksPlatform||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF4EEAC3-CCFB-4829-B4A0-5EDEE691ADDD}|BreachBreaksPlatform.csproj|d:\\dev files\\mods\\rimworld\\breachbreakplatform\\source\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LDKSettings.cs",
+              "DocumentMoniker": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\LDKSettings.cs",
+              "RelativeDocumentMoniker": "LDKSettings.cs",
+              "ToolTip": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\LDKSettings.cs",
+              "RelativeToolTip": "LDKSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T06:58:16.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BreachBreaksPlatform",
+              "DocumentMoniker": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\BreachBreaksPlatform.csproj",
+              "RelativeDocumentMoniker": "BreachBreaksPlatform.csproj",
+              "ToolTip": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\BreachBreaksPlatform.csproj",
+              "RelativeToolTip": "BreachBreaksPlatform.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-02T09:32:58.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patches.cs",
+              "DocumentMoniker": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\Patches.cs",
+              "RelativeDocumentMoniker": "Patches.cs",
+              "ToolTip": "D:\\Dev Files\\Mods\\Rimworld\\BreachBreakPlatform\\Source\\Patches.cs",
+              "RelativeToolTip": "Patches.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAkwEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:32:47.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
