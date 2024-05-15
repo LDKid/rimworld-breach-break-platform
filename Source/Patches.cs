@@ -61,7 +61,7 @@ namespace BreachBreaksPlatform
 
                 __instance.HeldPlatform.TakeDamage(new DamageInfo(DamageDefOf.Scratch, escapeDamage, 0f, -1f, anomaly));
                 __instance.isEscaping = false;
-                Messages.Message("An anomaly has damaged it's holding spot while trying to escape.", new LookTargets(anomaly), MessageTypeDefOf.ThreatSmall);
+                Messages.Message("An anomaly has damaged its holding spot while trying to escape.", new LookTargets(anomaly), MessageTypeDefOf.ThreatSmall);
 
                 return false;
             }
