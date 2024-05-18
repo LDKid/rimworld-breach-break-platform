@@ -17,16 +17,16 @@ namespace BreachBreaksPlatform
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
             listingStandard.CheckboxLabeled(
-                "Breaches destroy platforms:", 
+                "SettingsBreachDestroy".Translate(), 
                 ref LDKSettings.breakPlatform, 
-                "By default, anomalies won't be able to destroy platforms, instead will successfully escape if damaging the platform would break it. Turning this option on will make anomalies damage the platforms until they destroy it instead."
+                "SettingsBreachDestroyTooltip".Translate()
             );
             LDKSettings.damageMult = listingStandard.SliderLabeled(
-                "Escape attempt damage multiplier: " + LDKSettings.damageMult.ToString(),
+                "SettingsBreachDamageMult".Translate() + LDKSettings.damageMult.ToString(),
                 LDKSettings.damageMult,
                 0.1f,
                 10f,
-                tooltip: "The damage an escape attempt deals to the platform is the anomaly's Mininum Containment Strength mulitplied by this value. (Default: 2.5)"
+                tooltip: "SettingsBreachDamageMultTooltip".Translate()
             );
             listingStandard.End();
             base.DoSettingsWindowContents(inRect);

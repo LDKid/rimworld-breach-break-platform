@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <SettingsBreachDestroy>Escapatórias destroem as plataformas:</SettingsBreachDestroy>
+    <SettingsBreachDestroyTooltip>Por defeito, anomalias não serão capazes de destruir plataformas, escapam com sucesso quando danificar a plataforma a quebraria. Ativar esta opção faz com que as anomalias danifiquem as plataformas até que sejam destruídas.</SettingsBreachDestroyTooltip>
+    <SettingsBreachDamageMult>Multiplicador de danos da tentativa de fuga: </SettingsBreachDamageMult>
+    <SettingsBreachDamageMultTooltip>O dano que uma tentativa de fuga causa à plataforma é a Força Mínima de Contenção(Minimum Containment Strength) da anomalia multiplicada por este valor. (Por defeito : 2,5)</SettingsBreachDamageMultTooltip>
+
+    <EscapeAttemptMade>Uma anomalia tentou escapar e danificou o seu local de detenção.</EscapeAttemptMade>
+
+    <LogLDKModLoaded>O mod LDK's BreachBreaksPlatform foi inicializado.</LogLDKModLoaded>
+    <LogLobotomyCorpLoaded>Mod de música LobotomyCorp foi carregado. LDK's BreachBreaksPlatform está a sobrepor-se ao seu patch por motivos de compatibilidade.</LogLobotomyCorpLoaded>
+
+</LanguageData>

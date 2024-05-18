@@ -20,7 +20,7 @@ namespace BreachBreaksPlatform
             var originalMethod = typeof(CompHoldingPlatformTarget).GetMethod("Escape");
             
             if (Harmony.HasAnyPatches(LCM_PACKAGE_ID)) {
-                Log.Message("LobotomyCorp music is loaded. LDK's BreachBreaksPlatform is overriding their patch for compatibility.");
+                Log.Message("LogLobotomyCorpLoaded".Translate());
                 
                 HarmonyMethod postfixPatch = new HarmonyMethod(typeof(patch1).GetMethod("Postfix"));
                 harmony.Patch(originalMethod, postfix: postfixPatch);
@@ -31,7 +31,7 @@ namespace BreachBreaksPlatform
 
             
             harmony.Patch(originalMethod, prefix: prefixPatch);
-            Log.Message("LDK's BreachBreaksPlatform mod initialized.");
+            Log.Message("LogLDKModLoaded".Translate());
         }
         private class patch1
         {
@@ -42,7 +42,8 @@ namespace BreachBreaksPlatform
                 Building_HoldingPlatform platform = __instance.HeldPlatform;
                 if (platform == null)
                 {
-                    Log.Error("Im confused");
+                    Log.Error("An escape attempt was made with an invalid platform?");
+                    return true;
                 }
                 
                 int platformHitpoints = platform.HitPoints;
@@ -61,7 +62,7 @@ namespace BreachBreaksPlatform
 
                 __instance.HeldPlatform.TakeDamage(new DamageInfo(DamageDefOf.Scratch, escapeDamage, 0f, -1f, anomaly));
                 __instance.isEscaping = false;
-                Messages.Message("An anomaly has damaged its holding spot while trying to escape.", new LookTargets(anomaly), MessageTypeDefOf.ThreatSmall);
+                Messages.Message("EscapeAttemptMade".Translate(), new LookTargets(anomaly), MessageTypeDefOf.ThreatSmall);
 
                 return false;
             }
