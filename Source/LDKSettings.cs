@@ -40,13 +40,13 @@ namespace BreachBreaksPlatform
 
     public class LDKSettings: ModSettings
     {
-        public static bool breakPlatform;
-        public static float damageMult;
+        public static bool breakPlatform = false;
+        public static float damageMult = 2.5f;
 
         public override void ExposeData()
         {
-            Scribe_Values.Look(ref breakPlatform, "breachingDestroyPlatforms", false);
-            Scribe_Values.Look(ref damageMult, "escapeDamageMultiplier", 2.5f);
+            Scribe_Values.Look(ref breakPlatform, "breachingDestroyPlatforms", breakPlatform);
+            Scribe_Values.Look(ref damageMult, "escapeDamageMultiplier", damageMult);
 
             base.ExposeData();
         }
