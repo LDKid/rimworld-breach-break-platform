@@ -6,9 +6,10 @@
     <author>LDKid</author>
     <description>This mod makes it so captured anomalies will damage the platform they're on when attempting to escape, instead of just escaping.</description>
     <supportedVersions> <!-- the version(s) your mod supports -->
+        <li>1.6</li>
         <li>1.5</li>
     </supportedVersions>
-    <modVersion>1.1</modVersion>
+    <modVersion>1.2</modVersion>
 	<modDependencies>
 	  <li>
 		<packageId>ludeon.rimworld.anomaly</packageId>
@@ -21,11 +22,9 @@
 		<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 	  </li>
 	</modDependencies>
-	<forceLoadAfter>
-		<li>ludeon.rimworld.anomaly</li>
-		<li>brrainz.harmony</li>
-	</forceLoadAfter>
 	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>ludeon.rimworld.anomaly</li>
 		<li>SYSMY.LCEM</li>
 	</loadAfter>
   </ModMetaData>
